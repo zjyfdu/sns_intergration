@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>facebook interation</title>
+        <meta property="og:url"         content="http://1.zhaijinyuan.applinzi.com/facebook.htm" />
+        <meta property="og:type"        content="article" />
+        <meta property="og:title"       content="something about knight" />
+        <meta property="og:description" content="a knight is a person who was ..." />
+        <meta property="og:image"       content="http://pic.58pic.com/58pic/13/19/91/70T58PIC8Cw_1024.jpg" />
+    </head>
+    <body>
+        <p>a knight is a person who was granted an honorary title by the king or leader. Usually, a knight is skilled in battle on horseback and fights for the his or her lord.<br> </p>
+        <img src="http://pic.58pic.com/58pic/13/19/91/70T58PIC8Cw_1024.jpg"  alt="knight" height="200"  />
+        
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : '973800646071146',
+                    xfbml      : true,
+                    version    : 'v2.6'
+                });
+            };
+            
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        
+        <HR>
+        
+        <h2>like button<br></h2>
+        
+        <h3>div 类型</h3>
+        <div class="fb-like" data-share="true" data-width="450"
+        data-show-faces="true"></div>
+        
+        <h3>xfbml 类型</h3>
+        <fb:like href="http://1.zhaijinyuan.applinzi.com" width="450"
+        show_faces="true" send="true"></fb:like>
+        
+        <h3>iframe 类型</h3>
+        <iframe src="https://www.facebook.com/plugins/like.php?
+		href=http%3A%2F%2F1.zhaijinyuan.applinzi.com%2F&width=450&layout=standard&
+		action=like&show_faces=true&share=true&height=80&appId=973800646071146" 
+        width="450" height="80" style="border:none;overflow:hidden"
+        scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+        
+        <HR>
+        
+        <h2>follow<br></h2> 
+        <h3>div 类型</h3>
+        <div class="fb-follow" data-href="https://www.facebook.com/zuck" data-layout="standard" data-show-faces="true"></div>
+        <h3>iframe 类型</h3>
+        <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fzuck&width=450&height=80&layout=standard&show_faces=true&appId=973800646071146" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <h3>xfbml 类型</h3>
+        <fb:follow
+        href="https://www.facebook.com/zuck"
+        width="450"
+        show_faces="true">
+        </fb:follow>
+        
+        <HR>        
+        
+        <h2>comments<br></h2>
+        <h3>div 类型</h3>
+        <div class="fb-comments" data-href="http://1.zhaijinyuan.applinzi.com/" data-numposts="5"></div>
+        <h3>没有iframe类的代码<br></h3>
+        <h3>xfbml 类型</h3>
+        <fb:comments
+        href="http://1.zhaijinyuan.applinzi.com/" width="470">    
+        </fb:comments>
+    </body>
+
+</html>
