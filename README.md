@@ -1,6 +1,6 @@
 # sns_intergration
 人人、微信、微博集成
-
+http://1.zhaijinyuan.applinzi.com/
 ||  文件   |	说明 |
 | ---------- |:----------:| -----:|
 | bshare	|  bshare.html |	bshare网页集成|
