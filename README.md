@@ -1,8 +1,7 @@
 # sns_intergration
 人人、微信、微博集成
-# sns_intergration
-人人、微信、微博集成
-|            |    	文件   |	说明 |
+
+||  文件   |	说明 |
 | ---------- |:----------:| -----:|
 | bshare	|  bshare.html |	bshare网页集成|
 ||	bshare.js	| bshare调用的js文件 |
